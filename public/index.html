@@ -46,8 +46,7 @@
 </body>
 
 <script>
-  (
-    function(){
+  (function(){
       //check to see if service worker is supported in the browser
       if("serviceWorker" in navigator){
         //register the service worker using the service worker file
@@ -55,8 +54,7 @@
         .then(()=> console.log("Service worker registered."))
         .catch(error => console.log('Service worker was not registered. Error: ' + error));
       }
-    }
-  )();
+  })();
 </script>
 
 </html>
