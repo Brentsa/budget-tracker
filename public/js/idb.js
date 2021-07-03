@@ -75,6 +75,7 @@ function uploadTransaction(){
                 budgetObjectStore.clear();
 
                 alert('All saved transactions have been submitted!');
+                window.location.reload();
             })
             .catch(error => console.log(error));
         }
