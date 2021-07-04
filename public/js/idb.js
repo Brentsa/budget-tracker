@@ -42,6 +42,8 @@ function saveRecord(record){
 
     //Add the record to our transaction store using add method
     budgetObjectStore.add(record);
+
+    alert("Transaction has been saved in temporary storage until an internet connection has been reestablished.")
 }
 
 //This function will be called to collect the data from indexed db and POST it to the server
