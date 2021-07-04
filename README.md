@@ -14,7 +14,7 @@ Budget tracker is a progressive web application (PWA) used to manage personal de
 * [Credits](#Credits)
 
 ## Installation
-No installation needed. The website can be accessed at ___. Users can also install the web app onto their device of easy access. Refer to your browser's instructions on how to install the app to your device.
+No installation needed. The website can be accessed at [https://budget-tracker-app-456787.herokuapp.com/](https://budget-tracker-app-456787.herokuapp.com/). Users can also install the web app onto their device of easy access. Refer to your browser's instructions on how to install the app to your device.
 
 ## Usage
 Add the name of the transaction and the amount. You can then click "Add Funds" for income and "Subtract Funds" for expenses.
