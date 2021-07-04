@@ -11,7 +11,7 @@ request.onupgradeneeded = function(event){
     const db = event.target.result;
 
     //create a new object store from our local databae connection
-    db.createObjectStore(objStoreName, {autoIncrement: true});
+    db.createObjectStore("Transactions", {autoIncrement: true});
 }
 
 //event handler that gets called on database failure
